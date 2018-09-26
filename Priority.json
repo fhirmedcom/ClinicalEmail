@@ -1,0 +1,38 @@
+{
+  "resourceType": "ValueSet",
+  "url": "http://medcom.dk/ValueSets/Priority",
+  "name": "Priority",
+  "status": "draft",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://medcom.dk/ValueSets/Priority",
+        "concept": [
+          {
+            "code": "rutine",
+            "display": "Rutine"
+          },
+          {
+            "code": "høj_prioritet",
+            "display": "Høj prioritet"
+          }
+        ],
+        "version": "0.1"
+      }
+    ]
+  },
+  "description": "Priority angiver om meddelelsen er høj_prioritet eller rutine, default. Såfremt feltet ikke er medsendt antages prioriteten til at være rutine.",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Priority</h2><tt>http://medcom.dk/ValueSets/Priority</tt><p>Priority angiver om meddelelsen er høj_prioritet eller rutine, default. Såfremt feltet ikke er medsendt antages prioriteten til at være rutine.</p></div>"
+  }
+}
