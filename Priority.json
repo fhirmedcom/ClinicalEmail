@@ -34,5 +34,9 @@
   "text": {
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Priority</h2><tt>http://medcom.dk/ValueSets/Priority</tt><p>Priority angiver om meddelelsen er høj_prioritet eller rutine, default. Såfremt feltet ikke er medsendt antages prioriteten til at være rutine.</p></div>"
-  }
+  },
+  "id": "048a7d94-7dca-491e-bca5-134bed6963e0",
+  "experimental": true,
+  "publisher": "MedCOm",
+  "date": "2018-09-26"
 }
